@@ -1,0 +1,1 @@
+bindsym --locked $mod+Shift+N exec swaylock -i /home/ioras/Pictures/virityskuva.png -s fill

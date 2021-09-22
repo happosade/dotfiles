@@ -1,0 +1,2 @@
+bindsym --locked $mod+Shift+F4 exec light -S "$(light -G | awk '{ print int(($1 + .72) * 1.4) }')"
+bindsym --locked $mod+Shift+F3 exec light -S "$(light -G | awk '{ print int($1 / 1.4) }')"
